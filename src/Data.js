@@ -11,7 +11,7 @@ const SCP = JSON.map(
                 <span class="badge bg-primary">Object Class:</span> {scp.objectclass}
               </div>
               <div className="card-body">
-                <img src={scp.imagesrc} className="img-fluid rounded my-3 d-block" style={{width:"100%"}} alt={scp.title} />
+                <img src={scp.imagesrc} className="img-fluid rounded mx-auto my-3 d-block" style={{"min-width":"33%"}} alt={scp.title} />
                 <p className="multilineText"><span class="badge bg-warning text-dark">Special Containment Procedures:</span> {scp.procedures}</p>
                 <p className="multilineText"><span class="badge bg-secondary">Description:</span> {scp.description}</p>
                 <p className="multilineText"><span class="badge bg-primary">Additional:</span> {scp.additional}</p>
